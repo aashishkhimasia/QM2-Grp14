@@ -1,2 +1,6 @@
 # QM2-Grp14
-Are wild animals' lives worth living?
+Aashish Khimasia
+Sorana Bucseneanu
+Lucia Dominguez Garcia
+
+# Are wild animals' lives worth living?
