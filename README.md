@@ -1,4 +1,4 @@
 # QM2-Grp14
-Aashish Khimasia, Sorana Bucseneanu, Lucia Dominguez Garcia, Jinghai He
+Aashish Khimasia, Sorana Bucseneanu, Lucia Dominguez Garcia, Jinghai He, Shi Li  
  
-# Are wild animals' lives worth living?
+# Comparing wild animals welfare  
