@@ -1,0 +1,54 @@
+WHY: 
+
+Motivation 
+
+As a group of five students at University College London, we have found that we all have a common interest in wellbeing - more specifically, the wellbeing of wild 
+animals. As interdisciplinary students we are intrigued by how gaining an understanding of the unique experiences of animals requires drawing upon many different 
+fields, like ethics, philosophy, and science, and are curious about how we can think across these disciplines, in order to call attention to the animal species which 
+require intervention. 
+
+WHAT: 
+
+Aim: What do we want to accomplish? 
+
+Our main goal is to estimate, as accurately as possible, the welfare of 50 wild animal species. By doing this, we wish to help shed light on the species which require 
+more human and environmental intervention, research, as well as help direct policy efforts to where they are most needed and identify the causes of poor welfare. 
+
+HOW:
+
+Objectives: How are we doing this? 
+
+Animal welfare is an emerging field, therefore the research surrounding it is still in its early stages. That means that there are a number of key uncertainties that 
+our research project needs to take into careful consideration and address:
+
+How can we accurately quantify the wellbeing of a wild animal?
+
+The way we have estimated the welfare of animals, as precisely as possible, is by producing an accurate and well-informed function. This function takes into account 
+key variables, such as:
+
+-the type of death (total harvest, vehicle accidents, poisoning, fence entanglement, predation, disease, starvation, drowning)
+-mortality rate
+-life expectancy
+-welfare expectancy and
+-maximum lifespan. 
+
+Each of these variables are considered on a scale from 0 to 1, by weighing up various positive and negative experiences. 
+
+What is the welfare value of a wild animal?
+
+The estimated welfare value for each wild animal, the output of our function, is considered on a scale from 0 to 1, where 0 represents a very poor quality of life, 
+and 1 represents a very positive one. 
+
+Which species should we be focusing our resources and attention on?
+
+In order to intelligibly draw attention to which species have more negative experiences and require intervention, we have produced various visualizations that allow 
+comparison of different animal species’ welfare against each other. Moreover, we have also compared the academic popularity of each species with their welfare value, 
+in order to highlight which species researchers and conservationists should be focusing more on. 
+
+
+
+
+
+
+
+
