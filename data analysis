@@ -1,2 +1,29 @@
 data analysis in website 
-<h1> hhh </h1>
+
+basic linear form: y=\sum(w_i x_i)
+
+compression function: 
+
+1)logistic form :compressed to the range (0,1) 
+ 
+ welfare= e^{y}/1+e^{y}
+ 
+2)max-min compression:compressed to the range (0,1)
+
+ welfare= (y-min{y})/(max{y}-min{y})
+ 
+3)probit form:compressed to the range (0,1)
+ 
+ welfare= probit(y-mean{y}/sigma{y})
+ 
+ 4)tanh form：compressed to range (-1,1)
+ when the welfare is negative, we can really show the disadvantaged situations.
+ 
+ welfare= (e^{y}-e^{-y})/(e^{y}+e^{-y})
+ 
+ To standarize each variable:
+ 
+ max-min standarization is suggested:
+ x~(x-min{x})/(max{x}-min{x}) 
+ 
+ if applying clustering, the standarized variable may be even more helpful
