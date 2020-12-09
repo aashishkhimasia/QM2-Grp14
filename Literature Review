@@ -117,49 +117,60 @@ Key factors for death
 	--> The more painful the death is, the longer it will feel
 https://www.nature.com/articles/s41598-017-15982-6
 
+Life Span Variable 
+Subvariables
+   - Relative welfare expectancy 
+   	- If RWE > 1, Most individuals will survive to a point of experiencing a period of above-average welfare
+	- If RWE < 1, Most individuals won't survive to a point of experiencing a period of above-average welfare
+   - Life Expectancy/Max Life Span
+   	- Life Expectancy/Maximum life Span x 100 --> gives percentage of maximum life live on average
+   - Infant Mortality Rate
+   	- 1-survival rate from first year of life
+How to process these
+   - RWE gives a more objective idea of whether an experience is positive or negative, so the feature of being normalised around 1 is important. We could add for RWE > 1 and subtract for RWE < 1. However, then we need a baseline from the other factors and the other ones are relative so this wouldn't work. Therefore, we should make it proportionate
+   - LE/ML - set it so that 100% of the marks for this subvariable is awarded to the species with the highest LE/ML out of all the data we have, and 0% is awarded to the one with the lowest. Then, the marks between 0% and 100% will be awarded proportionate to where they fall in the range
+   	--> Makes data comparative, removes the burden of having to define an absolute value for what would count as positive and negative
+   - IMR - similar to LE/ML
+How to combine these
+   - Total score of 100 available from all subvariables combined
+   	- RWE is very important at grounding the overall valence
+	- IMR And LE/ML are related and can combine to increase or decrease the initial value of RWE 
+		- RWE = 45%
+		- X = 55% 
+		   - LE/ML = 80% of x, IMR = 20% of x
+		- RWE + X = L
+
+
+
+
+
+
+Extra ideas
 How is welfare assessed?
-
 Direct indicators of poor welfare;
-
 Tests of avoidance;
-
 Tests of positive preference;
-
 Measures of ability to carry out normal
 behaviour and other biological functions; 
-
 Direct indicators of good behaviour
 (Broom 2007).
-
 Physiological and behavioural
 indicators of pleasure;
-
 Extent to which strongly preferred
 behaviours can be shown;
-
 Variety of normal behaviours shown
 or suppressed;
-
 Extent to which normal physiological
 processes and anatomical development
 are possible;
-
 Extent of behavioural aversion shown;
 Physiological and behavioural attempts
 to cope;
-
 Immunosuppression;
-
 Disease and body damage prevalence;
-
 Behaviour pathology;
-
 Brain changes;
-
 Body damage prevalence;
-
 Reduced ability to grow or breed; 
-
 Reduced life expectancy
-
 [https://www.agriculture.gov.au/sites/default/files/style library/images/daff/__data/assets/pdffile/0008/929888/humaneness-pest-animals.pdf](https://www.agriculture.gov.au/sites/default/files/style%20library/images/daff/__data/assets/pdffile/0008/929888/humaneness-pest-animals.pdf)
