@@ -1,0 +1,88 @@
+Key factors for death 
+
+
+- Severity of suffering involved
+    - Awareness of the experience (https://www.eiu.edu/humanitiescenter/pdf/The%20Dying%20Animal.pdf) 
+    
+    -> new research challenges the fact that only humans have an awareness of death 
+    -> death-related behavior in primates: 
+	      -> a study conducted by three researchers at the University of Stirling shows that animals’ responses to death are strikingly similar to humans’ responses. (study conducted on chimpanzees)
+    -> death-related behavior in non-primates: 
+	      -> zoologist Iain Douglas-Hamilton believes that elephants have a general awareness + curiosity about death ( “they will gather around the body of a dead 
+        herd member, gently touching the body with their trunks and feet, often standing vigil for days.” - Cynthia Moss)
+
+    - Fear involved (have they seen other organisms die in this way) -> psychological distress
+   
+   -> animals experience natural death and violent death inflicted upon them differently (violent death caused by humans - worse than natural death)
+   -> study suggests that witnessing the killing of offspring,  companions, or conspecifics can be profoundly distressing for animals (e.g. studies conducted on 
+   rats show increased heart rate and blood pressure (stress responses) when watching other animals being decapitated, same response was documented in mice and monkeys) 
+   -> highly sensitive animals, such as elephants, suffer from PTSD after witnessing family members of herd-mates being slaughtered by poachers.
+
+    
+    - Physical suffering
+    
+    -> it is important to identify the causes of death that entail more suffering than others (https://www.wildanimalinitiative.org/blog/cause-of-death-2) 
+    -> loss of the individual + disruption of fertility & reproductive success (e.g. the fetus of a pregnant female that is malnourished may die)
+
+- Time
+    - Duration (objective)
+    - Relative time (subjective)
+
+    —> Depends upon how animals perceive time. Probably more relative but need to update this. Perhaps could combine both 
+    -> research suggests that at least some animal species have “chronesthesia”(the ability to be aware) -> impacts welfare:  ethicists have argued think 
+    that if animals are stuck in the present, "then when they experience pain, they are their pain. Their entire world is pain, without the mitigating knowledge that sometime in the future the 
+    pain may end” - Bernie Rollin)
+    Evidence of the relationship between pain and psychological time
+    	- Several studies have shown that pain significantly lengthened the subjective duration of a stimulus 
+		- As pain intensity increases, negative distortion of time increases (longer)
+		- Anxiety compounds this effect 
+	--> The more painful the death is, the longer it will feel
+https://www.nature.com/articles/s41598-017-15982-6
+
+- Variables - types of death: (harvest, vehicle accidents, drowning, predation, fence entanglement, poisoning, starvation, disease)
+
+RANGE 0-10 
+WEIGHTING (WORSE 10, BEST O (natural death))
+
+Estimated duration for each type of death: 
+-> harvest: minutes-hours 10
+-> vehicle accidents: minutes-hours 10
+-> drowning: <60 seconds  5
+-> predation: minutes 6
+-> fence entanglement: days 7
+-> poisoning: minutes-hours 10
+-> starvation: 40-60 days 8
+-> disease: varies, but can be longer than other types of death, depending on the disease 9
+
+---> from “best” to worst (according to studies showing that violent, human caused death is worse than natural death + estimated durations): 
+drowning, fence entanglement, starvation, disease, harvest, predation, poisoning, vehicle accidents
+
+
+
+Life Span Variable 
+
+RANGE 0-100%
+WEIGHTING 0% being the animal that has the worse life span and 100% being best life span variable 
+
+
+Subvariables
+   - Relative welfare expectancy 
+   - If RWE > 1, Most individuals will survive to a point of experiencing a period of above-average welfare
+	 - If RWE < 1, Most individuals won't survive to a point of experiencing a period of above-average welfare
+   - Life Expectancy/Max Life Span
+   - Life Expectancy/Maximum life Span x 100 --> gives percentage of maximum life live on average
+   - Infant Mortality Rate
+   - 1-survival rate from first year of life
+How to process these
+   - RWE gives a more objective idea of whether an experience is positive or negative, so the feature of being normalised around 1 is important. We could add for RWE > 1 and subtract for RWE < 1. However, then we need a baseline from the other factors and the other ones are relative so this wouldn't work. Therefore, we should make it proportionate
+   - LE/ML - set it so that 100% of the marks for this subvariable is awarded to the species with the highest LE/ML out of all the data we have, and 0% is awarded to the one with the lowest. Then, the marks between 0% and 100% will be awarded proportionate to where they fall in the range
+   --> Makes data comparative, removes the burden of having to define an absolute value for what would count as positive and negative
+   - IMR - similar to LE/ML
+How to combine these
+   - Total score of 100 available from all subvariables combined
+   - RWE is very important at grounding the overall valence
+	 - IMR And LE/ML are related and can combine to increase or decrease the initial value of RWE 
+	 - RWE = 45%
+	 - X = 55% 
+	 - LE/ML = 80% of x, IMR = 20% of x
+	 - 0.45(RWE) + 0.55(0.8(LE/ML) + 0.2(IMR)) = L
