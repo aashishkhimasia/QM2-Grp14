@@ -1,3 +1,10 @@
+METHODOLOGY FOR WELFARE FUNCTION (TYPES OF DEATH (0.40)  + LIFE SPAN (0.45) + REPRODUCTION RATE (0.15)
+LINEAR FUNCTION 
+WEIGHTING DECIDED IN FUNCTION OF NEGATIVE UTILITARIANISM (give more weight to suffering than pleasure)
+WEIGHTING EXPLANATION: The factors that we are weighting the highest are representative of their individual wellbeing during their lifetime or very intense experiences (such as types of deaths). Hence, why reproduction rate is given a low weighting.  
+
+
+
 Key factors for death 
 
 
@@ -39,30 +46,34 @@ Key factors for death
 	--> The more painful the death is, the longer it will feel
 https://www.nature.com/articles/s41598-017-15982-6
 
-- Variables - types of death: (harvest, vehicle accidents, drowning, predation, fence entanglement, poisoning, starvation, disease)
+- VARIABLES -
 
-RANGE 0-10 
-WEIGHTING (WORSE 10, BEST O (natural death))
+TYPES OF DEATH: (harvest, vehicle accidents, drowning, predation, fence entanglement, poisoning, starvation, disease)
+
+RANGE 0-100 
+(WORSE 100, BEST O (natural death))
+WEIGHTING 0.40
 
 Estimated duration for each type of death: 
--> harvest: minutes-hours 10
--> vehicle accidents: minutes-hours 10
--> drowning: <60 seconds  5
--> predation: minutes 6
--> fence entanglement: days 7
--> poisoning: minutes-hours 10
--> starvation: 40-60 days 8
--> disease: varies, but can be longer than other types of death, depending on the disease 9
+-> harvest: minutes-hours 100
+-> vehicle accidents: minutes-hours 100
+-> drowning: <60 seconds  50
+-> predation: minutes 60
+-> fence entanglement: days 70
+-> poisoning: minutes-hours 100
+-> starvation: 40-60 days 80
+-> disease: varies, but can be longer than other types of death, depending on the disease 90
 
 ---> from “best” to worst (according to studies showing that violent, human caused death is worse than natural death + estimated durations): 
 drowning, fence entanglement, starvation, disease, harvest, predation, poisoning, vehicle accidents
 
 
 
-Life Span Variable 
+LIFE SPAN VARIABLE 
 
 RANGE 0-100%
-WEIGHTING 0% being the animal that has the worse life span and 100% being best life span variable 
+- 0% being the animal that has the worse life span and 100% being best life span variable 
+WEIGHTING 0.45
 
 
 Subvariables
@@ -86,3 +97,32 @@ How to combine these
 	 - X = 55% 
 	 - LE/ML = 80% of x, IMR = 20% of x
 	 - 0.45(RWE) + 0.55(0.8(LE/ML) + 0.2(IMR)) = L
+	 
+
+REPRODUCTION RATE
+
+RANGE 0-100
+(0-50 if its beow average and 50-100 over average) 
+WEIGHTING 0.15
+
+
+
+----------------------
+GENERAL INTERACTIVE MAP
+https://api.worldanimalprotection.org/methodology
+Excel longitud-langitud to know welfare of animals in each country
+calculate the average welfare, if welfare of certain species is:
+< average = red point 
+> average = green point 
+= average = yellow point 
+--> pick country that has overall highest number red points
+
+when clicking on each point, gives name of species, overall welfare of each of those species and gives infromation of 3 variables (death, life span, reproduction)  
+
+
+CASE STUDY OF A SPECIFIC COUNTRY THAT HAS RED POINTS COMPARED TO A COUNTRY WITH GREEN POINTS
+- compare legislations 
+- how much human intervention 
+
+
+
