@@ -27,3 +27,10 @@ compression function:
  x~(x-min{x})/(max{x}-min{x}) 
  
  if applying clustering, the standarized variable may be even more helpful
+
+
+Comparing work: 
+
+Regress the welfare index  on some other variables (maybe geographical varibles/country dummy) to analyse what realy influence the wellfare, and make the comparision.
+
+welfare index = a_0 + b_1 * geographical variable vectors + country dummy variable + other varibles  
