@@ -68,7 +68,7 @@ WEIGHTING 0% being the animal that has the worse life span and 100% being best l
 Subvariables
    - Relative welfare expectancy 
    - If RWE > 1, Most individuals will survive to a point of experiencing a period of above-average welfare
-	 - If RWE < 1, Most individuals won't survive to a point of experiencing a period of above-average welfare
+   - If RWE < 1, Most individuals won't survive to a point of experiencing a period of above-average welfare
    - Life Expectancy/Max Life Span
    - Life Expectancy/Maximum life Span x 100 --> gives percentage of maximum life live on average
    - Infant Mortality Rate
