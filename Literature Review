@@ -159,7 +159,27 @@ How to combine these
 		- 0.45(RWE) + 0.55(0.8(LE/ML) + 0.2(IMR)) = L
 
 
+FOR INTERACTIVE MAP & CASE STUDY 
+https://api.worldanimalprotection.org/methodology
 
+The Animal Protection Index  (API) is assessed according to 10 indicators and grouped in 4 goals 
+- 4 goals: 
+	1) recognition of animal sentience and prohibition of animal suffereing 
+	2) PRESENCE OF ANIMAL WELFARE LEGISLATION -> which we will be focusing on
+	   https://api.worldanimalprotection.org/indicators#Legislation
+		a) laws that apply to animals in captivity 
+		b) laws that apply for animals used for draught and recreation 
+		c) laws that apply the animals used in scientific research 
+		d) laws that apply to wild animals -> which we will be focusing on 
+			https://api.worldanimalprotection.org/indicators#Legislation
+			- countries are ranked from A (ligh bright green) to G (dark red)
+			- A countries  score ‘A’ for this indicator because its legislation contains:
+				- Ban on sport and recreational hunting.
+				- Wildlife management uses hunting only as a last resort, after demonstrating that all other alternatives have failed.
+				- The cruellest forms of hunting are banned (i.e. dog hunting, live baiting, poisoning, trapping, falconry, bow hunting).
+		worse country is Ukraine, and best is Kenya 
+	3) establishment of supportive governmemt bodies 
+	4) support for international animal wefare satandards 
 
 
 
