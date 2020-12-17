@@ -29,16 +29,16 @@ key variables, such as:
 -the type of death (total harvest, vehicle accidents, poisoning, fence entanglement, predation, disease, starvation, drowning)
 -mortality rate
 -life expectancy
--welfare expectancy and
--maximum lifespan. 
--reproduction rate 
+-welfare expectancy 
+-maximum lifespan and
+-reproduction rate.
 
 Each of these variables are considered on a scale from 0 to 1, by weighing up various positive and negative experiences. 
 
 What is the welfare value of a wild animal?
 
-The estimated welfare value for each wild animal, the output of our function, is considered on a scale from 0 to 1, where 0 represents a very poor quality of life, 
-and 1 represents a very positive one. 
+The estimated welfare value for each wild animal, the output of our function, is considered on a scale from 0 to 100, where 0 represents a very poor quality of life, 
+and 100 represents a very positive one. 
 
 Which species should we be focusing our resources and attention on?
 
