@@ -2,18 +2,36 @@ Our Project Outline
 
 Timeline
 
-Decide upon a model - 4th December
-Research variable weightings - 11th December
-Have created function - 18th December 
+Step by Step:
+Function and Data Analysis:
+Decide which species to use and ensure we have the correct data for each one
+Formalise the function
+Apply the function to the species we want to use
+Create box-whisker plot of the output grouped by order/class
+Search animal welfare journals for papers on each species
+Perform a linear regression between number of papers and function output
 
-Finish 
-Complete Website - 3rd January 2021
-Individual Report - 13th January 2021
+Interactive Map
+Cluster the outputs of the function geographically and visualise 
+Create interactive map showing the animal welfare in each region
+Create case study 
+Create cartogram (size = legislations about wild animal welfare)
 
-Research Questions
-- Review existing models from different disciplines to find which type of model we should use (linear, non linear etc)
-- What should we 
-- How do we consider the impact of different variables to welfare qualitatively? 
-  - What moral framework are we evaluating this with?
-- How do we consider the impact of different aspects of life to welfare quantitatively? 
-- What methods of data analysis and visualisation could we use?
+Natural Langauge Processing:
+Find summative policy statements by the world's leading wildlife organisations to use for NLP
+Visualise the findings (word cloud)
+Use the conclusions from this analysis to explain why we are doing this project in the introduction
+
+Conclusions:
+Analysis and findings
+Limitations
+Call to action - what data is needed to progress and what we would do with it
+
+
+Stages:
+Natural Language Processing
+Function
+Box-whisker Plot
+Linear Regression
+Interactive Map with Animal Welfare
+Case Study 
