@@ -1,2 +1,38 @@
-Background and Context
+Background and Context (1st draft)
+
+Our motivation for focusing our research project on the wellbeing of wild animals stems from the discrepancy that we have found between the policies 
+countries have on the protection of the welfare of wild animals. An article published in the Global Policy journal at Durham University, emphasizes that 
+although the wellbeing of animals is a matter that should be addressed globally, policies that  are supposed to protect these animals are largely sparse and
+differ greatly from country to country. This article, along with the interactive map provided by the World Animal Protection Index, which ranks countries 
+around the world based on their animal welfare policy and legislation, indicate visible dissimilarities between different countries’ legislations. 
+Therefore, by quantifying the wellbeing of wild animals, we are hoping to help bring attention to the countries that require a change of policies and species 
+that are in need of intervention.
+
+In order to reach our goal, we decided that we would need to quantify the wellbeing of wild animals and come up with a function that would be able to calculate 
+the welfare value of each one. To accomplish this, we found appropriate data that provides crucial information on the location, mortality rate, types of death, 
+life expectancy, maximum lifespan, welfare expectancy, the relative welfare expectancy, as well as reproduction rates of each species (COMADRE and COMPADRE databases.) 
+To produce a function that is as precise as possible and to weigh each variable in an accurate manner, we looked into the existing research in order to gain a better understanding 
+of the animals’ experience and perception of pain and pleasure. 
+
+Firstly, the premise that animals are sentient beings that are capable of experiencing emotions, such as pleasure, joy, pain, or fear, is a driving force in 
+our research. As a study conducted by the researchers Helen S. Proctor, Gemma Carder, and Amelia Cornish, titled “Searching for Animal Sentience: A Systematic 
+Review of the Scientific Literature” suggests, a proper comprehension of animal sentience is vital to the understanding of animal welfare. In spite of existing 
+research that clearly proves the existence of animal sentience, there are many controversies that still surround this topic, which ultimately impact the welfare of animals in a 
+negative way. It is the disregard of animal sentience that drives people to treat animals in inhumane ways for profit, entertainment, or with the purpose of 
+altering an ecosystem, for example by harvesting. 
+
+This notion that animals are sentient beings capable of emotions is backed up by multiple studies. One such study, called “The Dying Animal,” indicates  
+that it is not only humans who have an awareness of death: animals have that ability as well and their responses to death are strikingly similar to humans’ 
+responses. For example, zoologist Iain Douglas-Hamilton believes that elephants are aware of death, and the American wildlife researcher and conservationist 
+Cynthia Moss notices that they would “gather around the body of a dead herd member, gently touching the body with their trunks and feet, often standing vigil for days.” 
+This awareness that animals are shown to have when it comes to death is pivotal in our understanding of welfare, as researchers claim that animals experience natural 
+death and violent death inflicted upon them by humans differently.  Moreover, animals that witness the killing of offspring or companions also suffer from psychological distress, 
+such as increased heart rate, PTSD, and blood pressure. 
+
+Another important aspect that we have taken into consideration is the concept of “chronesthesia,” a capacity to mentally time travel, that according to research, 
+some animal species lack. Bernard Rollin, a professor of philosophy and biomedical sciences at Colorado State University, explains that “if animals live only in the 
+moment, then when they experience pain, they are their pain. Their entire world is pain, without mitigating knowledge that sometime in the future the pain may end.” 
+
+The understanding of animals’ sentience and experiences that these studies provide is crucial in producing a well-informed function. To read about how we weighed each variable, click here. (-> methodology)
+
 
