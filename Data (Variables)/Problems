@@ -1,1 +1,13 @@
 
+
+1.Lack of raw data: IMR(Infant Mortality Rate) and RP(Reproduction Rate) missing.
+2.Some of the species selected by Aashihsh were not found in the raw data: both Mortality rate and Ways of dying (especially WoD cuz most 
+  of the species were not found)
+  Mammals: Pan troglodytes subsp schweinfurthii
+           Panthera pardus
+  Reptiles: Chrysemys picta
+            Crocodylus johnsoni
+            Cryptophis nigrescens
+            Hoplocephalus bungaroides
+            Kinosternon subrubrum
+ 3.There are more than one sample group of the same species given in the raw data. --> Average was taken.
