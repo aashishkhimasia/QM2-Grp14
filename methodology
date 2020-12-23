@@ -103,7 +103,7 @@ How to combine these
 	 - RWE = 45%
 	 - X = 55% 
 	 - LE/ML = 80% of x, IMR = 20% of x
-	 - 0.45(RWE) + 0.55(0.8(LE/ML) - 0.2(IMR)) = L
+	 - 0.45(RWE) + 0.55(1.2(LE/ML) - 0.2(IMR)) = L
 	 
 
 REPRODUCTION RATE
