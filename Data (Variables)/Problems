@@ -11,3 +11,8 @@
             Hoplocephalus bungaroides
             Kinosternon subrubrum
  3.There are more than one sample group of the same species given in the raw data. --> Average was taken.
+
+Solutions
+1. True Leslie Matrices containing data which can be interpreted to find IMR amd RP has been shared through google drive
+2. Our animal species - life expectancy, max lifespan has been shared on github and contains this data 
+3. This works for our analysis by species which isn't related to location, but when we perform location based analyses we will need to separate these samples.
