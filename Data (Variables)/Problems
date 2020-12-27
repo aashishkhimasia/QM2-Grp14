@@ -11,6 +11,12 @@
             Hoplocephalus bungaroides
             Kinosternon subrubrum
  3.There are more than one sample group of the same species given in the raw data. --> Average was taken.
+ 4. There are 6 species found without reproduction rate so I am not able to calculate the welfare using our function.
+ So I prefer to remove them from our data if there is no other ways to obtain the data, given that the decreasing sample size will not affect the unbiasness.  
+ 5. It is found that the reproduction rate of the species of amphibians are significantly higher than the other spcies as (Amphibians :500-3000, Others:(0.001-50).
+ So the adjusted scores on RR given to the amphibians are much higher as well, the average score given to the mammals is no more than 1 while the amphibians' score
+ are bove 80. So how do you guys think about it? Would you maintain the scores or maybe you want t make further adjustments to the scores to narrow down the gap 
+ (so the amphibians will not take too much adventages on RR as it is accompanies with larger number of infant mortality).
 
 Solutions
 1. True Leslie Matrices containing data which can be interpreted to find IMR amd RP has been shared through google drive
