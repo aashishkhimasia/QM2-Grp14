@@ -2,6 +2,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 data=pd.read_excel('Life Span Variable Cleaned.xls')
-data.boxplot(column=['Maxlifespan'],by='Class')
+data.boxplot(column=['Overall Welfare'],by='Class')
 data.boxplot(column=['IMR'],by='Class')
 data.boxplot(column=['RWE'],by='Class')
