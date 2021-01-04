@@ -7,15 +7,19 @@ animals. As interdisciplinary students we are intrigued by how gaining an unders
 fields, like ethics, philosophy, and science, and are curious about how we can think across these disciplines, in order to call attention to the animal species which 
 require intervention. 
 
-By analyzing the mission statements and policies of the top wildlife organizations in the world - World Animal Protection, the Animal Welfare Institute, Defenders 
-of Wildlife, Save the Elephants, the United Nations Development Programme, Wildlife Conservation Society, Wildlife Alliance, World Bank, World Wildlife Fund, the 
-World Animal Initiative, as well as the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES), we were curious to see what their 
-main focal point was. By using NLP we created a histogram to visualize the most frequent 30 nouns used in their statements. We noticed that while words such as 
-“trade,” “accordance,” and “conservation,” are among the most used ones, the word “welfare” is used only 7 times across all these organizations’ statements, 
-suggesting that this aspect is not a predominant focus for these organizations. This prompted our curiosity on the domain of wild animal welfare, one that is not 
-very studied, and led us to direct our project towards the following research questions: 
-What is the quality of life of these wildlife animals?
-Which wild animal species should human interventions be focused upon? (written by Lucia & Sorana) 
+As part of our initial research, when familiarising ourselves with the domain of wild animal and wildlife research, we realised we needed to gain an understanding of the mainstream approaches and attitudes towards wild animals in this field to be able to assess whether wild animal welfare is a largely neglected issue.
+To do this, we analysed the mission statements and policies of a group of the largest and most influential wildlife organisations in the world, to see whether there are trends in their priorities and approaches towards the wild animals they serve, and if so what they are.
+
+World Animal Protection, the Animal Welfare Institute, Defenders of Wildlife, Save the Elephants, the United Nations Development Programme, Wildlife Conservation Society, Wildlife Alliance, World Bank, World Wildlife Fund, the World Animal Initiative, as well as the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES)
+(Suggestion: Create a graphic of all their logos and names, easier to read than a list of names)
+
+By using Natural Langauge Processing (NLP), we created a histogram to visualize the most frequent 30 nouns used in their statements. We noticed that while words such as “trade,” “accordance,” and “conservation,” are among the most frequently used, the word “welfare” is used only 7 times across all these organizations’ statements. This suggests the stance of these organisations is one that prioritises conservation, extinction and the impact of human activities on wild animals, with the welfare and daily experience of the wild animals not a highly considered or prioritised issue.
+
+The issue of wild animal welfare has been gaining traction within the Effective Altruism community, with ethical arguments being made to support a call for increased attention to wild animal suffering. With the outcomes of the NLP supporting our background research that shows wild animal welfare to be a neglected area, this prompted us to direct our project towards the following questions:
+- What is the welfare of a range of wild animal species? 
+- Which wild animal species should human interventions be focused upon?
+- Should there be a significant shift in the focus of research and interventions regarding wild animals when considering their welfare?
+(Lucia, Sorana, Aashish)
 
 
 According to the American Veterinary Medical Association (2020), animal welfare refers to "how an animal is coping with the conditions in which it lives. 
