@@ -2,8 +2,8 @@ WHAT:
 
 Aim: What do we want to accomplish? 
 
-Our main goal is to estimate, as accurately as possible, the welfare of approximately 90 wild animal species, on a global scale, and then place on a map these different species, comparing the welfare of wild animals between different countries. After doing a specific case study contratsing two countries' policies on wild animal welfare, one with a high wild animal welfare and another with a low wild animal welfare, we will attempt to suggest ways of initiatives that are succesful in order to increase wild animal welfare. By doing this, we wish to help shed light on the species which require 
-more human and environmental intervention, research, as well as help direct policy efforts to where they are most needed and identify the causes of poor welfare. 
+Our main goal is to help shed light on the species which require more human and environmental intervention, research, as well as help direct policy efforts to 
+where they are most needed and identify the causes of poor welfare. 
 
 HOW:
 
@@ -36,8 +36,11 @@ and 100 represents a very positive one.
 Which species should we be focusing our resources and attention on?
 
 In order to intelligibly draw attention to which species have more negative experiences and require intervention, we have produced various visualizations that allow 
-comparison of different animal species’ welfare against each other. Moreover, we have also compared the academic popularity of each species with their welfare value, 
-in order to highlight which species researchers and conservationists should be focusing more on. 
+comparison of different animal species’ welfare against each other. We have used linear regression to compare the academic  popularity of each species with their welfare value, in order to highlight which species researchers and conservationists 
+should be focusing more on. Moreover, we have developed an interactive map that provides a clearer overview of welfare on a global scale. 
+In addition, it helps showcase the region or regions where the welfare value is lower. By comparing the legislation of a region that shows a lower 
+welfare value to another that shows a higher one, we are able to shed light on the policies that would need to be implemented for the welfare of animals to improve. 
+
 
 
 
