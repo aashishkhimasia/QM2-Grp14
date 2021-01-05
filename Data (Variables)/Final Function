@@ -1,0 +1,19 @@
+The final expression of the animal welfare in our project is in the form of a linear function of mutiple variables
+
+       OW = 0.25 RR + 0.75 (0.45 RWE + 0.55 LS)  
+          = 0.25 RR + 0.75 (0.45 RWE + 0.55 (0.8 LE/ML - 0.2 IMR) )
+           
+          where OW - Overall Welfare
+                RR - Reproduction Rate            
+                REW - Relative Welfare Expectancy
+                LS - Life Span
+                LE/ML - Life Expectancy/Maximum Life Span
+                IMR - Infant Mortality Rate
+                
+ PS: 1. As the term TYPES OF DEATH is deleted from the function, the coefficient given to the other tow variables were changed :
+        Life Span changes from 0.45 to 0.75 and Reproduction Rate changes from 0.15 to 0.25. This it to keep the sum of coefficient to 1
+        while remainining the linear relationship between the variables. ( LS = 3 * RR)
+     2. The final result of the overall werlfare is adjusted to 0-100 scale for the sake of the comprehension and further analysis. The step 
+        is completed by adding 8.25 to the initial output of each species. This is due to the fact that there is a negative term (IMR) in the 
+        function, making the scale shift away from the 0-100 scale. (MAX = 91.75, MIN = -8.25 ) Since the MAX and MIN are 8.25 lower than the 
+        expected value, a parallel upward shift is made by adding 8.25 to each output.      
