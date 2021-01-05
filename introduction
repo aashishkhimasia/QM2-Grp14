@@ -1,34 +1,55 @@
 Introduction 
 
-Motivation 
+As a group of five students at University College London, we have found that we all have a common interest in wellbeing - more specifically, the wellbeing of wild animals. However, we realised from our informal prior awareness of some of the discourses regarding wild animals, that they seemed to be mainly focused upon conservation. Interestingly, none of us could recall a major discussion of wild animal welfare in the way that human welfare is considered, about the lived, daily experiences of the huge array of wild animals that exist, and what humans can do to improve these. As interdisciplinary students we are intrigued by the necessity to draw from many fields, including philosophy, ecology, biology and psychology, to gain a nuanced understanding of the unique experiences of wild animals, and evaluate whether this should be a priority for wildlife organisations. 
 
-As a group of five students at University College London, we have found that we all have a common interest in wellbeing - more specifically, the wellbeing of wild 
-animals. As interdisciplinary students we are intrigued by how gaining an understanding of the unique experiences of animals requires drawing upon many different 
-fields, like ethics, philosophy, and science, and are curious about how we can think across these disciplines, in order to call attention to the animal species which 
-require intervention. 
 
-As part of our initial research, when familiarising ourselves with the domain of wild animal and wildlife research, we realised we needed to gain an understanding of the mainstream approaches and attitudes towards wild animals in this field to be able to assess whether wild animal welfare is a largely neglected issue.
+Motivation:
+
+As part of our initial research, when familiarising ourselves with the domain of wild animal and wildlife research, we realised we needed to gain an understanding of the mainstream approaches and attitudes towards wild animals in this field to be able to assess whether or not wild animal welfare is a largely neglected issue.
+
 To do this, we analysed the mission statements and policies of a group of the largest and most influential wildlife organisations in the world, to see whether there are trends in their priorities and approaches towards the wild animals they serve, and if so what they are.
 
-World Animal Protection, the Animal Welfare Institute, Defenders of Wildlife, Save the Elephants, the United Nations Development Programme, Wildlife Conservation Society, Wildlife Alliance, World Bank, World Wildlife Fund, the World Animal Initiative, as well as the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES)
-(Suggestion: Create a graphic of all their logos and names, easier to read than a list of names)
+(World Animal Protection, the Animal Welfare Institute, Defenders of Wildlife, Save the Elephants, the United Nations Development Programme, Wildlife Conservation Society, Wildlife Alliance, World Bank, World Wildlife Fund, the Wild Animal Initiative, as well as the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES))
 
-By using Natural Langauge Processing (NLP), we created a histogram to visualize the most frequent 30 nouns used in their statements. We noticed that while words such as “trade,” “accordance,” and “conservation,” are among the most frequently used, the word “welfare” is used only 7 times across all these organizations’ statements. This suggests the stance of these organisations is one that prioritises conservation, extinction and the impact of human activities on wild animals, with the welfare and daily experience of the wild animals not a highly considered or prioritised issue.
+(Images of logos)
+
+
+
+By using Natural Language Processing (NLP), we created a histogram to visualize the most frequent 30 nouns used in their statements. We noticed that while words such as “trade,” “accordance,” and “conservation,” are among the most frequently used, the word “welfare” is used only 7 times across all these organizations’ statements. This suggests the stance of these organisations is one that prioritises conservation, extinction and the impact of human activities on wild animals, with the welfare and daily experience of the wild animals not a highly considered or prioritised issue.
+
+(NLP visualisation)
 
 The issue of wild animal welfare has been gaining traction within the Effective Altruism community, with ethical arguments being made to support a call for increased attention to wild animal suffering. With the outcomes of the NLP supporting our background research that shows wild animal welfare to be a neglected area, this prompted us to direct our project towards the following questions:
-- What is the welfare of a range of wild animal species? 
-- Which wild animal species should human interventions be focused upon?
-- Should there be a significant shift in the focus of research and interventions regarding wild animals when considering their welfare?
-(Lucia, Sorana, Aashish)
+What is the welfare of a range of wild animal species? 
+Which wild animal species should human interventions be focused upon?
+Should there be a significant shift in the focus of research and interventions regarding wild animals when considering their welfare?
+
+Why does the Welfare of Wild Animals matter and why is it a pressing moral issue?  
+
+Scale:
+Wild land vertebrates number between 10^11 and 10^14. Wild marine vertebrates number at least 10^13. Terrestrial and marine arthropods each probably number at least 10^18 (Capture Prioritization). 
+Very neglected subject: 
+Only 2 organisations in the world have a central focus upon reducing wild animal suffering (Wild Animal Initiative and The Neuroethics Foundation), with a total funding of 200,000 USD (2018). The rest of organisations prioritise wildlife conservation, not the actual well-being during their life-course and the factors influencing it  (Capture Prioritization). 
+Not a very tractable subject: 
+Currently, it would be very difficult to plan effective interventions, as there has been little groundwork done for the estimation and consideration of wild animal welfare. Therefore, our project hopes to address some of the initial questions that need to be answered to progress this cause. 
+
+REFERENCE: https://causeprioritization.org/Wild_animal_welfare
+
+(written and edited by Lucia, Sorana, Aashish)
 
 
-According to the American Veterinary Medical Association (2020), animal welfare refers to "how an animal is coping with the conditions in which it lives. 
-An animal is in a good state of welfare if (as indicated by scientific evidence) it is healthy, comfortable, well-nourished, safe, able to express innate behavior, and if it is not suffering from unpleasant states such as pain, fear, and distress."
 
-Why does it matter? 
-Because it has a huge scale: Wild land vertebrates number between 10^11 and 10^14. Wild marine vertebrates number at least 10^13. Terrestrial and marine arthropods each probably number at least 10^18 
-It is a very neglected subject: Only 2 organisations in the world with central focus upon reducing wild animal suffering (Wild Animal Initiative & The Neuroethics Foundation), with a total funding of 200,000 USD (2018).
-And it is not very tractable, little research has been done on wild animal welfare, therefore a lot of groundwork to be done that will further the cause.
-Thus making it a moral pressing issue.
 
-https://causeprioritization.org/Wild_animal_welfare
+
+
+
+
+
+
+
+
+
+
+
+
+
