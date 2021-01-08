@@ -1,0 +1,86 @@
+Class,Genus species,Adjusted Welfare(0-100),Academic Articles per species
+Actinopterygii,Ammocrypta pellucida,20.3310209,7
+Actinopterygii,Astroblepus ubidiai,28.56530704,0
+Actinopterygii,Cottus sp.,13.87787477,37
+Actinopterygii,Erimyzon sucetta,36.92602578,1
+Actinopterygii,Hybognathus argyritis,22.48084481,1
+Actinopterygii,Notropis percobromus,16.98096585,0
+Actinopterygii,Notropis photogenis,21.83037816,1
+Actinopterygii,Oncorhynchus tshawytscha,19.86288404,386
+Actinopterygii,Opsopoeodus emiliae,15.48918695,1
+Actinopterygii,Pimephales promelas,35.25133472,139
+Actinopterygii,Zoarces viviparus,18.0067109,14
+Aves,Anas laysanensis,35.11812298,12
+Aves,Anser anser,30.79142524,1355
+Aves,Anthropoides paradiseus,29.51618928,9
+Aves,Bonasa umbellus,27.93849727,47
+Aves,Bostrychia hagedash,32.16001175,8
+Aves,Buteo solitarius,30.07089616,2
+Aves,Calidris temminckii,32.85813083,14
+Aves,Calyptorhynchus lathami,29.9417767,9
+Aves,Centrocercus minimus,30.75531447,36
+Aves,Certhia americana,29.89654256,40
+Aves,Chen caerulescens,30.3526575,108
+Aves,Falco naumanni,28.51901264,112
+Aves,Falco peregrinus subsp.anatum,29.66874665,302
+Aves,Fulmarus glacialis,31.42118854,0
+Aves,Gavia immer,25.33225806,97
+Aves,Gyps coprotheres,33.07969557,1
+Aves,Haliaeetus albicilla,27.5074803,150
+Aves,Lagopus leucura,23.26438355,13
+Aves,Lagopus muta,26.12317483,80
+Aves,Lagopus muta sub species japonica,34.74923344,6
+Aves,Larus heermanni,32.60878714,7
+Aves,Milvus migrans,27.03457316,113
+Aves,Nipponia nippon,27.97660076,77
+Aves,Pernis apivorus,29.7543243,0
+Aves,Phalacrocorax auritus,25.54723907,230
+Aves,Sterna hirundo,26.66447086,203
+Aves,Sternula antillarum subsp.browni,26.63120596,0
+Aves,Strix occidentalis subsp.occidentalis,31.35368137,193
+Aves,Thalassarche melanophris,20.52866034,94
+Aves,Turdus torquatus,14.38846667,0
+Aves,Vermivora chrysoptera,26.02110374,59
+Mammalia,Alces alces,33.77336228,269
+Mammalia,Brachyteles hypoxanthus,30.4269261,1
+Mammalia,Callorhinus ursinus,33.81833352,0
+Mammalia,Callospermophilus lateralis,26.11473017,6
+Mammalia,Canis lupus,24.33443147,530
+Mammalia,Capra ibex,30.69567349,73
+Mammalia,Cebus capucinus,33.96191025,5
+Mammalia,Cervus elaphus,34.41679499,520
+Mammalia,Elephas maximus,42.9010155,126
+Mammalia,Eumetopias jubatus,26.81426438,53
+Mammalia,Gorilla beringei,37.05780601,24
+Mammalia,Halichoerus grypus,15.01239005,119
+Mammalia,Macaca mulatta,21.97652993,90
+Mammalia,Marmota flaviventris,63.21244304,9
+Mammalia,Mirounga leonina,54.06962973,63
+Mammalia,Mustela erminea,38.05905153,55
+Mammalia,Odocoileus virginianus,45.59262526,513
+Mammalia,Onychogalea fraenata,17.20396129,8
+Mammalia,Orcinus orca,34.01229813,170
+Mammalia,Ovis aries,27.02792738,1084
+Mammalia,Ovis canadensis subsp.sierrae,33.59487564,0
+Mammalia,Pan troglodytes subsp. schweinfurthii,35.94489087,12
+Mammalia,Panthera pardus,24.89046959,220
+Mammalia,Papio cynocephalus,36.05358649,6
+Mammalia,Phoca vitulina,34.32848783,130
+Mammalia,Phocarctos hookeri,24.06567324,29
+Mammalia,Presbytis thomasi,38.59358181,0
+Mammalia,Propithecus edwardsi,36.49376021,0
+Mammalia,Propithecus verreauxi,34.40548398,7
+Mammalia,Rangifer tarandus,29.78932429,376
+Mammalia,Rangifer tarandus subsp.platyrhynchus,42.28772284,11
+Mammalia,Sousa chinensis,20.64496757,0
+Mammalia,Tamiasciurus hudsonicus,44.64795311,46
+Mammalia,Urocitellus armatus,38.74180721,1
+Mammalia,Urocitellus beldingi,36.62736947,0
+Mammalia,Ursus americanus,34.80291221,0
+Mammalia,Ursus arctos subsp.horribilis,36.08863687,16
+Mammalia,Zalophus californianus,33.09932442,0
+Reptilia,Chrysemys picta,32.61859172,30
+Reptilia,Crocodylus johnsoni,22.18521787,2
+Reptilia,Cryptophis nigrescens,24.74398939,0
+Reptilia,Hoplocephalus bungaroides,24.42974149,5
+Reptilia,Kinosternon subrubrum,20.10423337,4
