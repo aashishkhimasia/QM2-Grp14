@@ -11,7 +11,7 @@ that are in need of intervention.
 
 In order to reach our goal, we decided that we would need to quantify the wellbeing of wild animals and come up with a function that would be able to calculate 
 the welfare value of each one. To accomplish this, we found appropriate data that provides crucial information on the location, mortality rate,
-life expectancy, maximum lifespan, welfare expectancy, the relative welfare expectancy, as well as reproduction rates of each species (COMADRE and COMPADRE databases.) 
+life expectancy, maximum lifespan, welfare expectancy, the relative welfare expectancy, as well as reproduction rates of each species (COMADRE database). 
 To produce a function that is as precise as possible and to weigh each variable in an accurate manner, we looked into the existing research in order to gain a better understanding 
 of the animals’ experience and perception of pain and pleasure. 
 
