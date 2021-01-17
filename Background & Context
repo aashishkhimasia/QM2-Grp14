@@ -1,12 +1,13 @@
 Background and Context 
 
 Our motivation for focusing our research project on the wellbeing of wild animals stems from the discrepancy that we have found between the policies 
-countries have on the protection of the welfare of wild animals. An article published in the Global Policy journal at Durham University, emphasizes that 
+countries have on the protection of the welfare of wild animals. Further, the Global Priorities Institute's Research Agenda also refers to the estimation of the welfare of wild animal's lives 
+as an important research area, motivating our project. An article published in the Global Policy journal at Durham University, emphasizes that 
 although the wellbeing of animals is a matter that should be addressed globally, policies that  are supposed to protect these animals are largely sparse and
 differ greatly from country to country. This article, along with the interactive map provided by the World Animal Protection Index, which ranks countries 
 around the world based on their animal welfare policy and legislation, indicate visible dissimilarities between different countries’ legislations. 
 Therefore, by quantifying the wellbeing of wild animals, we are hoping to help bring attention to the countries that require a change of policies and species 
-that are in need of intervention.
+that are in need of intervention. 
 
 In order to reach our goal, we decided that we would need to quantify the wellbeing of wild animals and come up with a function that would be able to calculate 
 the welfare value of each one. To accomplish this, we found appropriate data that provides crucial information on the location, mortality rate,
