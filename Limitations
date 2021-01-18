@@ -2,31 +2,56 @@ Limitations
 
 Limitations of our Data: 
 
-Type of death data issue
-A key variable that we had hoped to work with was data describing the way in which different animals died. With this, we would better inform our function which estimates the welfare of the different animals. 
-However, towards the later stages of the project we realised that the species within the mortality data sets did not match with the species within the COMADRE database, from which we were extracting data for the rest of the variables of our function.
-This meant we had to let go of the mortality variable, and adjust our function accordingly.
+Type of death data
+
+A key variable that we had hoped to work with was data describing the way in which different animals died. With this, we would better inform our function which estimates the welfare of the different animals. However, towards the later stages of the project we realised that the species within the mortality data sets did not match with the species within the COMADRE database, from which we were extracting data for the rest of the variables of our function. This meant we had to let go of the mortality variable, and adjust our function accordingly.
+
 COMADRE database 
-The matrices in these databases are filled with data from a range of studies which observed a range of animal species from across the world over different time periods.
-This means that many environmental variables are out of our control, however given the more obscure nature of our topic and the lack of specialised research done in this domain so far, this was our best option
+
+The matrices in these databases are filled with data from a range of studies which observed a range of animal species from across the world over different time periods. This means that many environmental variables are out of our control that may have accounted for some difference in the variables we were measuring. However given the more obscure nature of our topic and the lack of specialised research done in this domain so far, this was our best option for being able to create preliminary estimates of wild animal welfare. 
+
+
+
+
+
+
+
+
+
+
+
 
 Limitations of our Methodologies: 
 
 Philosophical Framework
+
 After some research, we decided to take the approach of weak negative utilitarianism to evaluate welfare. This was important to do as we needed to have a consistent and considered system of judgement, however also introduces a limitation to our project, as our outcomes and findings are based on approaching this from one philosophy.
 Were we to extend the project, we would create several functions from different philosophical positions, and compare the variation in our outcomes and findings due to the difference in philosophical stance. 
-However, this highlights the importance of one recognising one’s own axioms when making judgements, and helps us understand how some organisations may be limited by their own philosophical assumptions.
+However, this highlights the importance of one recognising one’s own axioms when making value judgements, and helps us understand how some organisations may be limited by their own philosophical assumptions.
+
 Production of our function
+
 A function to estimate the welfare over the course of a lifespan of a wild animal is extremely difficult to do, given the limited relevant data and relevant knowledge of what their lives entail. This meant that we had to make many assumptions when producing our function, however we feel that beginning to contribute estimates of welfare to this discipline is a useful step forward.
+Assumptions
+That class of animal can have it’s welfare judged the same way, that each variable means the same thing to each one, which allows us to apply the same function to all animals.
+That an animal has an interest to live out it’s life expectancy
+That an animal species can be considered as one macro-organism with the data about each individual being aggregated to judge the welfare on the species level
+That internal population dynamics do not impact the interests of an animal 
+
 Academic Popularity
-We had to try to filter our searches to find papers that are relevant to wildlife, ecology and welfare rather than any instance of a species coming up in a paper. To do this we filtered for journals in the Agricultural and Biological Sciences
-Environmental Sciences categories, so as to cast a wide enough net instead of selecting the few animal welfare journals. However, this means some papers we selected may have been irrelevant and we also may have missed other relevant papers not in these categories. 
+
+We had to try to filter our searches to find papers that are relevant to wildlife, ecology and welfare rather than any instance of a species coming up in a paper. To do this we filtered for journals in the Agricultural and Biological Science and Environmental Sciences, so as to cast a wide enough net instead of selecting the few animal welfare journals. However, this means some papers we selected may have been irrelevant and we also may have missed other relevant papers not in these categories. 
+This method of assessing popularity was the best way, given that databases of papers already exist, allowing us to make a comprehensive sweep of the existing publications relevant to each species. However, this does not necessarily take into account relevant opinions and perspectives outside of academia. To overcome this, we chose to conduct a case study, looking animal policy, animal law and the aims and actions of animal organisations to gain and apply this perspective to our project.
+Assumptions
+All the papers within the journals we searched for are relevant to informing animal welfare
+That publications prior to the last 10 years are not relevant
+That academic publications can reflect the wider approach to animal welfare 
+
 
 Limitations of our Visualizations: 
 
 Map visualization
-The map visualization was initially supposed to be interactive, in which when clicking on each data point representing the animals that we are studying, their welfare would come up, with their exact location and scientific name. 
-Nevertheless, due to our lack of coding skills, we were not able to achieve this. 
-Therefore, with the skills that we had, we collaboratively attempted to create the best map possible, that would convey the repartition of animal welfare in the world, and where the lowest welfare is. 
+
+The map visualization was initially supposed to be interactive, in which when clicking on each data point representing the animals that we are studying, their welfare would come up, with their exact location and scientific name. Nevertheless, due to our lack of coding skills, we were not able to achieve this. Therefore, with the skills that we had, we collaboratively attempted to create the best map possible, that would convey the repartition of animal welfare in the world, and where the lowest welfare is. 
 
 
