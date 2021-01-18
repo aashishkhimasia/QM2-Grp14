@@ -1,13 +1,16 @@
+Methodology 
+
+
 Phase 1:
 	Gathering the data 
 
+After through searches across different databases and datasets regarding wildlife, we found the COMADRE database to be the most relevant, providing information about several variables such as infant mortality rate, reproduction rate, location, climate, life expectancy and lifespan that could be used to take an estimate of the welfare of an animal. We found that other sources, such as government data about animal policy and wild animal activity tended to be much more focused upon human activity in relation to a select number of animals of interest, rather than providing a more comprehensive account of the lives of a range of animals. 
 
 Phase 2:
 
 Natural Language Processing 
 
-In order to get a better understanding of the trends in the priorities and approaches of the most influential wildlife organizations towards wild animals, we analyzed their mission statements and policies by using Natural Language Processing (NLP). 
-This NLP was created with a Python code. With our result we made a histogram to visualize the most frequent 30 nouns used in their statements, as well as the number of times the word “welfare” was used across all these statements. 
+In order to get a better understanding of the trends in the priorities and approaches of the most influential wildlife organizations towards wild animals, we analyzed their mission statements and policies by using Natural Language Processing (NLP). This NLP was created with a Python code. With our result we made a histogram to visualize the most frequent 30 nouns used in their statements, as well as the number of times the word “welfare” was used across all these statements. 
 
 Phase 3: 
 
@@ -24,12 +27,7 @@ Phase 5:
 Popularity vs welfare barchart
 
 Step 1
-In order to create this barchart we first researched academic papers relevant to wild animals. 
-To do this, we tried filtering our searches to find papers that were related to wildlife, ecology and welfare to prevent having papers that simply contained instances of species.
-To do this we filtered and looked for journals in the Agricultural and Biological Science and Environmental Sciences, so as to cast a wide enough net instead of selecting just a few animal welfare journals. 
-To do this, we had to assume that all the papers within these journals were relevant to issues that can be used to understand animal welfare, however given that physiology, ecology and behavioural studies all inform how we can estimate the experience of an animal, we felt that these were relevant. 
-After finding the number of relevant publications, we assigned them to each one of  the species it mentioned.
-Once we created a document with all the species and the number of journals assigned, we were ready to start the bar chart.
+In order to create this barchart we first researched academic papers relevant to wild animals. To do this, we tried filtering our searches to find papers that were related to wildlife, ecology and welfare to prevent having papers that simply contained instances of species. To do this we filtered and looked for journals in the Agricultural and Biological Science and Environmental Sciences, so as to cast a wide enough net instead of selecting just a few animal welfare journals. To do this, we had to assume that all the papers within these journals were relevant to issues that can be used to understand animal welfare, however given that physiology, ecology and behavioural studies all inform how we can estimate the experience of an animal, we felt that these were relevant. After finding the number of relevant publications, we assigned them to each one of  the species it mentioned. Once we created a document with all the species and the number of journals assigned, we were ready to start the bar chart.
 
 Step 2
 After gathering the data of the academic popularity, and retrieving the welfare of each species previously calculated in the welfare function, we created a python side by side bar chart using matplotlib, which compares the welfare with the academic popularity of each species.
@@ -38,8 +36,7 @@ After gathering the data of the academic popularity, and retrieving the welfare 
 	
 Under/over representation of wild animals barchart
 
-We feel that the welfare of an animal species should determine how much of an effort there is to address it’s issues and understand it’s life.
-This would mean that the lower the welfare, the worse the conditions, the more pressing it is to solve their problems therefore a higher focus upon this species. 
+We feel that the welfare of an animal species should determine how much of an effort there is to address it’s issues and understand it’s life. This would mean that the lower the welfare, the worse the conditions, the more pressing it is to solve their problems therefore a higher focus upon this species. 
 
 Step 1
 We created a function that modelled the relationship between welfare and popularity, where the higher the welfare the lower the representation needed. 
@@ -48,17 +45,13 @@ y = -0.4(x) + 50
 y = expected popularity (% of highest popularity)
 x = adjusted welfare value (%)
 
-We chose this function as we thought there should be a negative linear relationship between welfare and popularity. 
-Therefore, at a welfare value of 0, there would be a popularity of 50% and at a welfare of 100 there would be a popularity of 10%.
-Therefore, the species with the lowest welfare would have a considerably high amount of focus, whereas those with the highest welfare would have a smaller but moderate amount of focus. 
-We chose the y intercept to be 50 to allow for this. 
+We chose this function as we thought there should be a negative linear relationship between welfare and popularity. Therefore, at a welfare value of 0, there would be a popularity of 50% and at a welfare of 100 there would be a popularity of 10%. Therefore, the species with the lowest welfare would have a considerably high amount of focus, whereas those with the highest welfare would have a smaller but moderate amount of focus. We chose the y intercept to be 50 to allow for this. 
 
 Step 2
 We then looked at the difference between the expected popularity and observed popularity (from the academic papers published), to show us by how much we hope each species would have it’s focus changed to reach our expected popularity.
 
 Step 3
-We visualised this difference by creating a barchart using matplotlib, to show whether a species is overrepresented and does not need as much focus or underrepresented and needs a much greater focus.
-This is shown through the positive or negative bars, over and under representation respectively. 
+We visualised this difference by creating a barchart using matplotlib, to show whether a species is overrepresented and does not need as much focus or underrepresented and needs a much greater focus. This is shown through the positive or negative bars, over and under representation respectively. 
 
 
 
@@ -77,9 +70,8 @@ Step 1
 To choose the case study, we analyzed what region had the most prominent lowest welfare. When looking at the thirteen species with the lowest welfare value, the lowest 15%, we found that six are located in Canada, including the animal with the lowest welfare, the Freshwater Sculpins. Thus we chose to concentrate on Canada as our case study.
 
 Step 2
-Our main goal was to understand why Canada had the average lowest wild animal welfare in our study and recommend changes to the laws and policies it implements to improve animal welfare. 
-To do this, we first had to analyse its current laws, policies and actions of wildlife organisations regarding animal welfare. 
-We used the World Animal Protection Index, which assesses countries according to 10 indicators, grouped into 4 goals,  addressing key animal welfare issues found around the world. By employing this index, it helped us assess, understand and highlight the policies that were implemented in Canada and the kind of changes that are needed to be made in order to improve the welfare of animals. 
+Our main goal was to understand why Canada had the average lowest wild animal welfare in our study and recommend changes to the laws and policies it implements to improve animal welfare. To do this, we first had to analyse its current laws, policies and actions of wildlife organisations regarding animal welfare. We used the World Animal Protection Index, which assesses countries according to 10 indicators, grouped into 4 goals,  addressing key animal welfare issues found around the world. By employing this index, it helped us assess, understand and highlight the policies that were implemented in Canada and the kind of changes that are needed to be made in order to improve the welfare of animals. 
 
 Step 3 
 We delved further into the animal welfare policy and action in Canada, by assessing relevant statutes, the conceptual groundings Canadian animal law and the aims and actions of the major wildlife and wild animal organisations, to ascertain where it was strong and where there could be improvements.
+
