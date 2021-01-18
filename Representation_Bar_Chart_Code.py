@@ -32,3 +32,6 @@ plt.subplots_adjust(bottom=0.4, top=0.99)
 plt.grid(True)
 plt.show()
 
+#Sources
+#https://datatofish.com/bar-chart-python-matplotlib/ - Showed me how to use dataframes to make a bar chart and edit the colours
+#https://www.pythonpool.com/matplotlib-figsize/ - Showed me how to edit figure size and set and rotate the x axis labels
