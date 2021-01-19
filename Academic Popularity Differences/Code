@@ -1,0 +1,43 @@
+Species_Name = data['Common Name'][0:84]
+Representation = data['Difference (observed y - expected y)'][0:84]
+
+a = []
+b = []
+c = []
+plt.figure(figsize=(25,10))
+for item in Representation:
+    if item <= 0:
+        if item >= -20:
+            c.append('lightgreen')
+            a.append(item)
+        elif -30 <= item and item< -20:
+            c.append('limegreen')
+            a.append(item)
+        elif -35 <= item and item< -30:
+            c.append('forestgreen')
+            a.append(item)
+
+        else:
+            c.append('darkgreen')
+            a.append(item)
+    else:
+        if item >= 30:
+            c.append('darkred')
+            b.append(item)
+        else:
+            c.append('red')
+            b.append(item)
+            
+#This is to separate the species into different colors by how the academic popularity of each species is biased from its expected value.
+
+plt.bar(Species_Name, Representation, color=c, width = 0.8)
+plt.title('Representation of Species', fontsize=14)
+plt.xlabel('Species Name', fontsize=12)
+plt.ylabel('Representation', fontsize=12)
+plt.xticks(Species_Name, rotation=90)
+plt.subplots_adjust(bottom=0.4, top=0.99)
+plt.grid(True)
+plt.show()
+print(a)
+print(b)
+print(c)
