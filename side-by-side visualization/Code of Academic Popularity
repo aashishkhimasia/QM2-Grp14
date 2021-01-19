@@ -1,0 +1,6 @@
+#A Pandas program is used to create a side-by-side bar plot of the academic popularity & adjusted welfare Dataframe.
+
+import pandas as pd
+data_path="/content/data/representation/Academic Popularity2.0.csv"
+data = pd.read_csv(data_path)
+data.groupby('Genus species').mean().plot(kind='bar')
