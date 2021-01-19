@@ -4,22 +4,42 @@ Methodology
 Phase 1:
 	Gathering the data 
 
-After through searches across different databases and datasets regarding wildlife, we found the COMADRE database to be the most relevant, providing information about several variables such as infant mortality rate, reproduction rate, location, climate, life expectancy and lifespan that could be used to take an estimate of the welfare of an animal. We found that other sources, such as government data about animal policy and wild animal activity tended to be much more focused upon human activity in relation to a select number of animals of interest, rather than providing a more comprehensive account of the lives of a range of animals. 
+After doing searches across different databases and datasets regarding wildlife, we found the COMADRE database to be the most relevant, providing information about several variables such as infant mortality rate, reproduction rate, location, climate, life expectancy and lifespan that could be used to take an estimate of the welfare of an animal.
+We found that other sources, such as government data about animal policy and wild animal activity tended to be much more focused upon human activity in relation to a select number of animals of interest, rather than providing a more comprehensive account of the lives of a range of animals. 
+ 
 
 Phase 2:
 
-Natural Language Processing 
+	Natural Language Processing 
 
-In order to get a better understanding of the trends in the priorities and approaches of the most influential wildlife organizations towards wild animals, we analyzed their mission statements and policies by using Natural Language Processing (NLP). This NLP was created with a Python code. With our result we made a histogram to visualize the most frequent 30 nouns used in their statements, as well as the number of times the word “welfare” was used across all these statements. 
+In order to get a better understanding of the trends in the priorities and approaches of the most influential wildlife organizations towards wild animals, we analyzed their mission statements and policies by using Natural Language Processing (NLP). 
+This NLP was created with a Python code. With our result we made a histogram to visualize the most frequent 30 nouns used in their statements, as well as the number of times the word “welfare” was used across all these statements. 
+
 
 Phase 3: 
 
-Welfare function 
+	Welfare function 
+The final expression of the animal welfare in our project is in the form of a linear function of multiple variables.
+OW = 0.25 RR + 0.75 (0.45 RWE + 0.55 LS)
+        = 0.25 RR + 0.75 (0.45 RWE + 0.55 (0.8 LE/ML - 0.2 IMR) )
+
+where  OW - Overall Welfare
+            RR - Reproduction Rate 
+            REW - Relative Welfare Expectancy
+            LS - Life Span
+            LE/ML - Life Expectancy/Maximum Life Span
+            IMR - Infant Mortality Rate
+  PS: 
+1. As the term TYPES OF DEATH is deleted from the function, the coefficient given to the other two variables were changed : Life Span changes from 0.45 to 0.75 and Reproduction Rate changes from 0.15 to 0.25. This is to keep the sum of coefficients to 1 while remaining the linear relationship between the variables. ( LS = 3 * RR) 
+2. The final result of the overall welfare is adjusted to 0-100 scale for the sake of	the comprehension and further analysis. The step is completed by adding 8.25 to the initial output of each species. This is due to the fact that there is a negative term (IMR) in the function, making the scale shift away from the 0-100 scale. (MAX = 91.75, MIN = -8.25 ) Since the MAX and MIN are 8.25 lower than the expected value, a parallel upward shift is made by adding 8.25 to each output.
 
 
 Phase 4:
 
 Box Plots
+After building the welfare function, we calculated the value for each species and visualized them in the form of a boxplot. 
+We made a boxplot for each class and incorporated them in one plot for comparison purposes.
+Besides, we also added the boxplots of IMR and RWE as supplementaries.  
 
 
 Phase 5: 
@@ -58,6 +78,9 @@ We visualised this difference by creating a barchart using matplotlib, to show w
 Phase 6: 
 
 Map showing the distribution of animal welfare in the world
+After we calculated the final welfare index for each species we studied, some supplementary information such as the geological factors were collected in order to visualize animals’ welfare situations in a map.
+This map was created with Python and  with the help of geopandas, bokeh and basemap, we were able to scatter each species in the map according to its real-world location.
+We introduced some characteristics from bubble chat to our map, with the size of each bubble which represents an animal  representing the value of the animal’s welfare and the color representing its class.
 
 
 
