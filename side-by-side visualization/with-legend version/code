@@ -1,0 +1,35 @@
+import tkinter as tk
+from tkinter import ttk
+import pandas as pd
+from matplotlib import pyplot as plt
+import numpy as np
+
+data =  pd.read_excel('.\Life Span Variable Cleaned.xls')
+data['article']=data['Academic Articles per species']/10
+classtype=data['Class']
+classtype.drop_duplicates(inplace=True)
+classt=list(classtype.values)
+
+species=data['Genus species']
+species.drop_duplicates(inplace=True)
+speciest=list(species.values)
+
+name='Reptilia'
+dt=data[data['Class']==name]
+
+species=np.array(dt['name'])
+print(species)
+article=np.array(dt['article'])
+print(article)
+welfare=np.array(dt['Overall Welfare'])
+print(len(species))
+ax=plt.subplot()
+lent=np.arange(len(species))
+width=0.5
+a=0.25
+ax.bar(lent-a,article,width=width,color='green')
+ax.bar(lent+a,welfare,width=width,color='orange')
+plt.xticks(lent,species,rotation=90,fontsize=6)
+plt.title(name)
+plt.gcf().subplots_adjust(bottom=0.35)
+plt.legend(["academic popularity/10","welfare"])
